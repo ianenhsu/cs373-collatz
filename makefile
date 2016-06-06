@@ -87,4 +87,4 @@ status:
 	git remote -v
 	git status
 
-test: .pylintrc Collatz.html Collatz.log RunCollatz.tmp TestCollatz.tmp collatz-tests check
+test: clean .pylintrc Collatz.html Collatz.log RunCollatz.tmp TestCollatz.tmp collatz-tests check
